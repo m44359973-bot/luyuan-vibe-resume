@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 560" role="img" aria-labelledby="title desc">
+  <title id="title">Payment funnel mock</title>
+  <desc id="desc">A desensitized game payment funnel mock showing conversion drop and hotfix recovery.</desc>
+  <rect width="920" height="560" fill="#151712"/>
+  <rect x="22" y="22" width="876" height="516" rx="8" fill="#F7F8F3"/>
+  <text x="54" y="72" fill="#151712" font-family="Noto Sans SC, Arial" font-size="24" font-weight="800">5-minute Payment Funnel / 脱敏示意</text>
+  <text x="54" y="100" fill="#4B5146" font-family="JetBrains Mono, Consolas" font-size="13">login -> expose -> click -> pay_success -> revenue</text>
+  <g font-family="JetBrains Mono, Consolas" font-weight="700">
+    <rect x="74" y="152" width="166" height="70" rx="8" fill="#fff" stroke="#D8DDD2"/>
+    <text x="104" y="194" fill="#151712">LOGIN 100%</text>
+    <rect x="276" y="170" width="166" height="70" rx="8" fill="#fff" stroke="#D8DDD2"/>
+    <text x="304" y="212" fill="#151712">EXPOSE 82%</text>
+    <rect x="478" y="198" width="166" height="70" rx="8" fill="#FFF1D7" stroke="#B56A00"/>
+    <text x="506" y="240" fill="#B56A00">CLICK 61%</text>
+    <rect x="680" y="246" width="166" height="70" rx="8" fill="#FBE7E4" stroke="#D73B2F"/>
+    <text x="704" y="288" fill="#D73B2F">PAY 15%</text>
+    <path d="M240 187 H276" stroke="#151712" stroke-width="2"/>
+    <path d="M442 205 H478" stroke="#151712" stroke-width="2"/>
+    <path d="M644 233 H680" stroke="#D73B2F" stroke-width="2"/>
+  </g>
+  <rect x="74" y="362" width="772" height="104" rx="8" fill="#fff" stroke="#151712"/>
+  <g font-family="Noto Sans SC, Arial" font-size="16">
+    <text x="104" y="400" fill="#151712" font-weight="800">Root cause action</text>
+    <text x="104" y="430" fill="#4B5146">首充礼包配置异常被 5 分钟级漏斗识别，推动热更修复。</text>
+    <text x="596" y="430" fill="#16835A" font-family="JetBrains Mono, Consolas" font-weight="700">saved 200k+ RMB</text>
+  </g>
+</svg>

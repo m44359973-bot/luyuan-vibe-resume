@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 560" role="img" aria-labelledby="title desc">
+  <title id="title">LLM review mock</title>
+  <desc id="desc">A desensitized LLM risk review panel showing prompt versions, recall lift, and false positive false negative slices.</desc>
+  <rect width="920" height="560" fill="#151712"/>
+  <rect x="22" y="22" width="876" height="516" rx="8" fill="#F7F8F3"/>
+  <text x="54" y="72" fill="#151712" font-family="Noto Sans SC, Arial" font-size="24" font-weight="800">LLM Asset-Hiding Review / 脱敏示意</text>
+  <g font-family="JetBrains Mono, Consolas" font-size="13">
+    <text x="54" y="100" fill="#4B5146">rules -> prompt extraction -> evidence chain -> review slice</text>
+    <rect x="54" y="132" width="246" height="344" rx="8" fill="#fff" stroke="#D8DDD2"/>
+    <text x="78" y="168" fill="#D73B2F" font-weight="700">PROMPT V3</text>
+    <text x="78" y="204" fill="#151712">fields:</text>
+    <text x="98" y="236" fill="#4B5146">marriage / children</text>
+    <text x="98" y="268" fill="#4B5146">property / vehicle</text>
+    <text x="98" y="300" fill="#4B5146">income / finance</text>
+    <text x="98" y="332" fill="#4B5146">evidence confidence</text>
+    <rect x="78" y="374" width="186" height="44" rx="8" fill="#FBE7E4" stroke="#D73B2F"/>
+    <text x="100" y="402" fill="#D73B2F" font-weight="700">manual review gate</text>
+  </g>
+  <rect x="328" y="132" width="238" height="344" rx="8" fill="#fff" stroke="#151712"/>
+  <g font-family="JetBrains Mono, Consolas" font-weight="700">
+    <text x="356" y="172" fill="#767E70" font-size="13">RECALL</text>
+    <text x="356" y="226" fill="#151712" font-size="48">44%</text>
+    <path d="M354 250 H534" stroke="#D8DDD2" stroke-width="12"/>
+    <path d="M354 250 H433" stroke="#D73B2F" stroke-width="12"/>
+    <text x="356" y="320" fill="#767E70" font-size="13">AFTER 3 SLICES</text>
+    <text x="356" y="374" fill="#16835A" font-size="48">66%</text>
+    <path d="M354 398 H534" stroke="#D8DDD2" stroke-width="12"/>
+    <path d="M354 398 H473" stroke="#16835A" stroke-width="12"/>
+  </g>
+  <rect x="594" y="132" width="256" height="344" rx="8" fill="#fff" stroke="#D8DDD2"/>
+  <g font-family="Noto Sans SC, Arial" font-size="15">
+    <text x="622" y="172" fill="#151712" font-size="18" font-weight="800">FP / FN Review Slices</text>
+    <circle cx="638" cy="220" r="7" fill="#D73B2F"/><text x="658" y="226" fill="#4B5146">误伤规则回收</text>
+    <circle cx="638" cy="268" r="7" fill="#B56A00"/><text x="658" y="274" fill="#4B5146">材料字段缺失</text>
+    <circle cx="638" cy="316" r="7" fill="#16835A"/><text x="658" y="322" fill="#4B5146">证据链匹配</text>
+    <circle cx="638" cy="364" r="7" fill="#16835A"/><text x="658" y="370" fill="#4B5146">知识库命中</text>
+    <text x="622" y="432" fill="#151712" font-weight="800">2600+ cases / 67.3%</text>
+  </g>
+</svg>

@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 860" role="img" aria-labelledby="title desc">
+  <title id="title">Risk operations atlas</title>
+  <desc id="desc">A dark risk operations atlas with signals, metrics, review stages, and release checkpoints.</desc>
+  <rect width="1400" height="860" fill="#10110E"/>
+  <path d="M892 44H1324V246H892z" fill="#181A15" stroke="#3B4135"/>
+  <path d="M940 96H1272" stroke="#F7F8F3" stroke-width="2"/>
+  <path d="M940 144H1170M940 182H1240" stroke="#4B5146" stroke-width="2"/>
+  <text x="940" y="78" fill="#F7F8F3" font-family="JetBrains Mono, Consolas, monospace" font-size="18" font-weight="700">SIGNAL LEDGER</text>
+  <text x="940" y="132" fill="#D73B2F" font-family="JetBrains Mono, Consolas, monospace" font-size="44" font-weight="700">67.3%</text>
+  <text x="1120" y="132" fill="#DFF4EA" font-family="JetBrains Mono, Consolas, monospace" font-size="18">online detection</text>
+  <path d="M932 316H1322V604H932z" fill="#F7F8F3" stroke="#F7F8F3"/>
+  <text x="970" y="364" fill="#151712" font-family="Noto Sans SC, Arial" font-size="22" font-weight="800">Workflow trace</text>
+  <g font-family="JetBrains Mono, Consolas, monospace" font-size="16" font-weight="700">
+    <rect x="970" y="410" width="86" height="54" rx="8" fill="#FBE7E4" stroke="#D73B2F"/>
+    <text x="994" y="444" fill="#D73B2F">DOCX</text>
+    <rect x="1080" y="410" width="86" height="54" rx="8" fill="#EEF2E9" stroke="#AEB8A6"/>
+    <text x="1104" y="444" fill="#151712">HUE</text>
+    <rect x="1190" y="410" width="86" height="54" rx="8" fill="#DFF4EA" stroke="#16835A"/>
+    <text x="1210" y="444" fill="#16835A">QA</text>
+  </g>
+  <path d="M1056 437H1080M1166 437H1190" stroke="#151712" stroke-width="2"/>
+  <g fill="none" stroke-width="3">
+    <path d="M116 636C216 560 308 592 392 508S560 428 670 490 774 604 874 512" stroke="#D73B2F"/>
+    <path d="M116 700C220 668 340 680 444 622S610 554 722 592 798 626 874 582" stroke="#16835A"/>
+  </g>
+  <g fill="#F7F8F3" font-family="JetBrains Mono, Consolas, monospace" font-size="15">
+    <text x="116" y="614">risk signal trend</text>
+    <text x="116" y="732">red = suspicious chain / green = resolved path</text>
+  </g>
+  <g stroke="#3B4135">
+    <path d="M86 96H750M86 150H750M86 204H750M86 258H750M86 312H750" />
+    <path d="M86 96V312M252 96V312M418 96V312M584 96V312M750 96V312" />
+  </g>
+  <g font-family="JetBrains Mono, Consolas, monospace" font-weight="700">
+    <text x="112" y="132" fill="#F7F8F3" font-size="28">80%+</text>
+    <text x="278" y="132" fill="#D73B2F" font-size="28">40%</text>
+    <text x="444" y="132" fill="#16835A" font-size="28">30+</text>
+    <text x="610" y="132" fill="#F7F8F3" font-size="28">5+</text>
+    <text x="112" y="184" fill="#767E70" font-size="15">efficiency</text>
+    <text x="278" y="184" fill="#767E70" font-size="15">OCR time</text>
+    <text x="444" y="184" fill="#767E70" font-size="15">metrics</text>
+    <text x="610" y="184" fill="#767E70" font-size="15">datasets</text>
+  </g>
+</svg>

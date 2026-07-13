@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 620" role="img" aria-labelledby="title desc">
+  <title id="title">Signal Ledger workflow visual</title>
+  <desc id="desc">A resume website workflow visualization connecting risk data, LLM review, SQL batch work, quality assurance, and GitHub release.</desc>
+  <rect width="760" height="620" fill="#151712"/>
+  <rect x="28" y="28" width="704" height="564" rx="8" fill="#F7F8F3"/>
+  <rect x="56" y="58" width="648" height="68" rx="8" fill="#FFFFFF" stroke="#151712"/>
+  <text x="80" y="96" fill="#151712" font-family="Noto Sans SC, Arial, sans-serif" font-size="22" font-weight="800">Signal Ledger / 风控策略履历台</text>
+  <text x="80" y="116" fill="#4B5146" font-family="JetBrains Mono, Consolas, monospace" font-size="12">DOCX -> HUE -> FRONTEND -> IMPECCABLE -> QA -> RELEASE</text>
+
+  <g font-family="JetBrains Mono, Consolas, monospace" font-size="12" font-weight="700">
+    <rect x="56" y="162" width="196" height="116" rx="8" fill="#FFFFFF" stroke="#D8DDD2"/>
+    <text x="78" y="192" fill="#D73B2F">RISK INPUT</text>
+    <text x="78" y="226" fill="#151712" font-size="28">30+</text>
+    <text x="136" y="226" fill="#4B5146">core metrics</text>
+    <text x="78" y="254" fill="#4B5146">refund / report / tag / order</text>
+
+    <rect x="282" y="162" width="196" height="116" rx="8" fill="#FFFFFF" stroke="#151712"/>
+    <text x="304" y="192" fill="#D73B2F">LLM REVIEW</text>
+    <text x="304" y="226" fill="#151712" font-size="28">44 -> 66%</text>
+    <text x="304" y="254" fill="#4B5146">offline recall improved</text>
+
+    <rect x="508" y="162" width="196" height="116" rx="8" fill="#FFFFFF" stroke="#D8DDD2"/>
+    <text x="530" y="192" fill="#16835A">ONLINE CHECK</text>
+    <text x="530" y="226" fill="#151712" font-size="28">67.3%</text>
+    <text x="530" y="254" fill="#4B5146">2600+ case validation</text>
+  </g>
+
+  <g fill="none" stroke-width="3">
+    <path d="M252 220 H282" stroke="#D73B2F"/>
+    <path d="M478 220 H508" stroke="#16835A"/>
+  </g>
+  <g fill="#D73B2F">
+    <circle cx="267" cy="220" r="5"/>
+  </g>
+  <g fill="#16835A">
+    <circle cx="493" cy="220" r="5"/>
+  </g>
+
+  <rect x="56" y="318" width="648" height="204" rx="8" fill="#FFFFFF" stroke="#151712"/>
+  <g font-family="Noto Sans SC, Arial, sans-serif">
+    <text x="80" y="358" fill="#151712" font-size="20" font-weight="800">Workflow Trace</text>
+    <text x="80" y="386" fill="#4B5146" font-size="14">每个环节都保留可复查产物：原始简历、设计语言、页面实现、截图验证、发布记录。</text>
+  </g>
+
+  <g font-family="JetBrains Mono, Consolas, monospace" font-size="12" font-weight="700">
+    <g>
+      <rect x="80" y="424" width="98" height="48" rx="8" fill="#FBE7E4" stroke="#D73B2F"/>
+      <text x="101" y="454" fill="#D73B2F">DOCX</text>
+    </g>
+    <g>
+      <rect x="200" y="424" width="98" height="48" rx="8" fill="#EEF2E9" stroke="#AEB8A6"/>
+      <text x="226" y="454" fill="#151712">HUE</text>
+    </g>
+    <g>
+      <rect x="320" y="424" width="98" height="48" rx="8" fill="#EEF2E9" stroke="#AEB8A6"/>
+      <text x="336" y="454" fill="#151712">BUILD</text>
+    </g>
+    <g>
+      <rect x="440" y="424" width="98" height="48" rx="8" fill="#FFF1D7" stroke="#B56A00"/>
+      <text x="456" y="454" fill="#B56A00">POLISH</text>
+    </g>
+    <g>
+      <rect x="560" y="424" width="98" height="48" rx="8" fill="#DFF4EA" stroke="#16835A"/>
+      <text x="588" y="454" fill="#16835A">QA</text>
+    </g>
+  </g>
+
+  <g stroke="#151712" stroke-width="2">
+    <path d="M178 448 H200"/>
+    <path d="M298 448 H320"/>
+    <path d="M418 448 H440"/>
+    <path d="M538 448 H560"/>
+  </g>
+
+  <g font-family="JetBrains Mono, Consolas, monospace" font-size="12">
+    <text x="80" y="548" fill="#4B5146">privacy mode: phone hidden / email masked / source files local</text>
+  </g>
+</svg>

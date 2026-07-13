@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 560" role="img" aria-labelledby="title desc">
+  <title id="title">Model evaluation mock</title>
+  <desc id="desc">A desensitized model evaluation board for asset pricing with LightGBM metrics and feature groups.</desc>
+  <rect width="920" height="560" fill="#151712"/>
+  <rect x="22" y="22" width="876" height="516" rx="8" fill="#F7F8F3"/>
+  <text x="54" y="72" fill="#151712" font-family="Noto Sans SC, Arial" font-size="24" font-weight="800">Asset Pricing Model / 脱敏示意</text>
+  <text x="54" y="100" fill="#4B5146" font-family="JetBrains Mono, Consolas" font-size="13">feature engineering -> LightGBM -> pricing baseline -> GMV lift</text>
+  <rect x="54" y="134" width="374" height="330" rx="8" fill="#fff" stroke="#151712"/>
+  <g fill="none" stroke-width="4">
+    <path d="M92 398 C140 372 180 370 224 326 S320 260 390 190" stroke="#16835A"/>
+    <path d="M92 418 C140 410 180 394 224 384 S320 340 390 314" stroke="#D73B2F" stroke-dasharray="8 8"/>
+  </g>
+  <g font-family="JetBrains Mono, Consolas" font-size="13">
+    <text x="84" y="166" fill="#767E70">error curve</text>
+    <text x="84" y="438" fill="#16835A">LightGBM baseline</text>
+    <text x="250" y="438" fill="#D73B2F">old estimate</text>
+  </g>
+  <rect x="458" y="134" width="388" height="330" rx="8" fill="#fff" stroke="#D8DDD2"/>
+  <g font-family="Noto Sans SC, Arial" font-size="15">
+    <text x="488" y="174" fill="#151712" font-size="18" font-weight="800">Feature groups</text>
+    <text x="488" y="216" fill="#4B5146">交易时效衰减</text><rect x="624" y="202" width="150" height="16" fill="#DFF4EA"/><rect x="624" y="202" width="128" height="16" fill="#16835A"/>
+    <text x="488" y="258" fill="#4B5146">历史成交价带</text><rect x="624" y="244" width="150" height="16" fill="#DFF4EA"/><rect x="624" y="244" width="112" height="16" fill="#16835A"/>
+    <text x="488" y="300" fill="#4B5146">长尾资产特征</text><rect x="624" y="286" width="150" height="16" fill="#DFF4EA"/><rect x="624" y="286" width="92" height="16" fill="#16835A"/>
+    <text x="488" y="342" fill="#4B5146">Bad Case 标签</text><rect x="624" y="328" width="150" height="16" fill="#DFF4EA"/><rect x="624" y="328" width="78" height="16" fill="#16835A"/>
+    <text x="488" y="414" fill="#151712" font-weight="800">误差率 -15% / GMV +30万+</text>
+  </g>
+</svg>

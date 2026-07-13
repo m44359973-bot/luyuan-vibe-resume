@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 560" role="img" aria-labelledby="title desc">
+  <title id="title">Risk dashboard mock</title>
+  <desc id="desc">A desensitized mock risk dashboard with metric tiles, trend lines, and queue status.</desc>
+  <rect width="920" height="560" fill="#151712"/>
+  <rect x="22" y="22" width="876" height="516" rx="8" fill="#F7F8F3"/>
+  <text x="54" y="70" fill="#151712" font-family="Noto Sans SC, Arial" font-size="24" font-weight="800">Risk Control Monitor / 脱敏示意</text>
+  <text x="54" y="96" fill="#4B5146" font-family="JetBrains Mono, Consolas" font-size="13">refund | report | risk-tag | withdraw | work-order</text>
+  <g font-family="JetBrains Mono, Consolas" font-size="13" font-weight="700">
+    <rect x="54" y="128" width="184" height="104" rx="8" fill="#fff" stroke="#D8DDD2"/>
+    <text x="74" y="160" fill="#767E70">CORE METRICS</text>
+    <text x="74" y="205" fill="#151712" font-size="36">30+</text>
+    <rect x="258" y="128" width="184" height="104" rx="8" fill="#fff" stroke="#D8DDD2"/>
+    <text x="278" y="160" fill="#767E70">DATASETS</text>
+    <text x="278" y="205" fill="#151712" font-size="36">5+</text>
+    <rect x="462" y="128" width="184" height="104" rx="8" fill="#fff" stroke="#D8DDD2"/>
+    <text x="482" y="160" fill="#767E70">EFFICIENCY</text>
+    <text x="482" y="205" fill="#16835A" font-size="36">80%+</text>
+    <rect x="666" y="128" width="184" height="104" rx="8" fill="#fff" stroke="#D8DDD2"/>
+    <text x="686" y="160" fill="#767E70">REVIEW QUEUE</text>
+    <text x="686" y="205" fill="#D73B2F" font-size="36">LIVE</text>
+  </g>
+  <rect x="54" y="270" width="510" height="214" rx="8" fill="#fff" stroke="#151712"/>
+  <g fill="none" stroke-width="4">
+    <path d="M88 430 C140 370 176 392 220 340 S314 320 360 284 460 318 530 292" stroke="#D73B2F"/>
+    <path d="M88 458 C140 442 176 448 220 420 S314 390 360 402 460 364 530 356" stroke="#16835A"/>
+  </g>
+  <g fill="#151712" font-family="JetBrains Mono, Consolas" font-size="12">
+    <text x="82" y="302">risk signal trend</text>
+    <text x="82" y="506">red: suspicious chain / green: handled cases</text>
+  </g>
+  <rect x="590" y="270" width="260" height="214" rx="8" fill="#fff" stroke="#D8DDD2"/>
+  <g font-family="Noto Sans SC, Arial" font-size="15">
+    <text x="618" y="304" fill="#151712" font-weight="800">Top work-order reasons</text>
+    <text x="618" y="344" fill="#4B5146">异地大额捐单</text><rect x="724" y="332" width="90" height="14" fill="#FBE7E4"/><rect x="724" y="332" width="72" height="14" fill="#D73B2F"/>
+    <text x="618" y="382" fill="#4B5146">风险标签命中</text><rect x="724" y="370" width="90" height="14" fill="#FBE7E4"/><rect x="724" y="370" width="54" height="14" fill="#D73B2F"/>
+    <text x="618" y="420" fill="#4B5146">工单滞留</text><rect x="724" y="408" width="90" height="14" fill="#FBE7E4"/><rect x="724" y="408" width="42" height="14" fill="#D73B2F"/>
+    <text x="618" y="458" fill="#4B5146">退款提现异常</text><rect x="724" y="446" width="90" height="14" fill="#FBE7E4"/><rect x="724" y="446" width="63" height="14" fill="#D73B2F"/>
+  </g>
+</svg>
