@@ -26,12 +26,20 @@ const revealObserver = new IntersectionObserver((entries) => {
 document.querySelectorAll(".reveal").forEach((item) => revealObserver.observe(item));
 
 const scanValue = document.querySelector("#scan-value");
+const scanLabel = document.querySelector("#scan-label");
 if (hero && scanValue) {
+  const spectrum = [
+    ["01", "商业分析 · 指标与增长"],
+    ["02", "数据分析 · 链路与洞察"],
+    ["03", "模型应用 · 预测与因果"],
+    ["04", "AI 工作流 · 自动化交付"],
+  ];
   hero.addEventListener("pointermove", (event) => {
     const rect = hero.getBoundingClientRect();
     const x = Math.max(0, Math.min(1, (event.clientX - rect.left) / rect.width));
-    const value = 44 + x * 23.3;
-    scanValue.textContent = `${value.toFixed(1)}%`;
+    const [value, label] = spectrum[Math.min(spectrum.length - 1, Math.floor(x * spectrum.length))];
+    scanValue.textContent = value;
+    if (scanLabel) scanLabel.textContent = label;
   }, { passive: true });
 }
 
